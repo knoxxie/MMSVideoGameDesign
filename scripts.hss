@@ -1,0 +1,20 @@
+include, plotscr.hsd
+include, Time Travel.hsi
+
+plotscript, Change to Female, begin
+	add hero (1)
+	delete hero (0)
+	delete hero (3)
+	delete hero (1)
+end
+
+plotscript, tell time, begin
+	show text box (2)
+end
+
+plotscript, Change to Male, begin
+	add hero (3)
+	delete hero (0)
+	delete hero (1)
+	delete hero (3)
+end

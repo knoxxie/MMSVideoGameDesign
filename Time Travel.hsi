@@ -1,0 +1,47 @@
+# HamsterSpeak constant definitions for Time Travel.rpg
+
+define constant, begin
+0,hero:Wisp
+1,hero:Female
+2,hero:IGNORE
+3,hero:Male
+0,stat:HP
+1,stat:MP
+2,stat:Atk
+3,stat:Aim
+4,stat:Def
+5,stat:Dog
+6,stat:Mag
+7,stat:Wil
+8,stat:Spd
+9,stat:Ctr
+10,stat:MP~
+11,stat:Hits
+0,element:Fire
+1,element:Ice
+2,element:Lit
+3,element:Earth
+4,element:Other
+5,element:Other 2
+6,element:Other 3
+7,element:Other 4
+8,element:Type 1killer
+9,element:Type 2killer
+10,element:Type 3killer
+11,element:Type 4killer
+12,element:Type 5killer
+13,element:Type 6killer
+14,element:Type 7killer
+15,element:Type 8killer
+1,slot:Weapon
+1,slot:Weapon 2
+2,slot:Head
+3,slot:Body
+4,slot:Arms
+5,slot:Legs
+0,map:Dorm
+1,map:Hall
+2,map:Lab
+3,map:Path
+4,map:Nexus
+end
