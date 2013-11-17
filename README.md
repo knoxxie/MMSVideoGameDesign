@@ -5,4 +5,3 @@ MMSVideoGameDesign
 Place the files you want to share (Mainly .midi, .bmp, and mainly, .rpg files.)
 Go to http://mmsvideogamedesignresearch.wikispaces.com/ for research on the time periods.
 
-brucy did something
