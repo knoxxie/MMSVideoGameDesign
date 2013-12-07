@@ -6,6 +6,8 @@ plotscript, Change to Female, begin
 	delete hero (0)
 	delete hero (3)
 	delete hero (1)
+	swap by position (3, 4)
+	set tag (2, true)
 end
 
 plotscript, tell time, begin
@@ -17,4 +19,6 @@ plotscript, Change to Male, begin
 	delete hero (0)
 	delete hero (1)
 	delete hero (3)
+	swap by position (3, 4)
+	set tag (2, true)
 end
