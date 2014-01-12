@@ -22,3 +22,28 @@ plotscript, Change to Male, begin
 	swap by position (3, 4)
 	set tag (2, true)
 end
+
+plotscript, CutScene1, begin
+	suspend player
+	
+	show text box (19)
+	wait for text box
+	show text box (20)
+	wait for text box
+	walk hero (me, 2, up)
+	wait for hero(me)
+	set hero direction (me, left)
+	wait for hero(me)
+	show text box (21)
+	wait for text box
+	show text box (22)
+	wait for text box
+	show text box (23)
+	wait for text box
+	
+	resume player
+end
+	
+	plotscript, CanadaClass, begin
+		show text box (24)
+	end
