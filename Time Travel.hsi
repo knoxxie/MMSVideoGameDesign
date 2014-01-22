@@ -2,10 +2,29 @@
 
 define constant, begin
 2,tag:Chosen?
+3,tag:Lab Key
+5,tag:Have Doughnut
+0,song:DEATH
+1,song:National_Anthems__Canada
+2,song:Alive
+3,song:Castles
+4,song:Combat
+5,song:Dungeon
+6,song:Exodus
+7,song:Fanfare
+8,song:Rule Britannia
+9,song:Shopping
+10,song:Towns
+11,song:Wander
+12,song:B
+13,song:Arab_Dance_Nutcracker
 0,hero:Wisp
 1,hero:Female
 2,hero:IGNORE
 3,hero:Male
+1,item:Coffee
+2,item:Donut
+3,item:Lab Key
 0,stat:HP
 1,stat:MP
 2,stat:Atk
@@ -43,7 +62,20 @@ define constant, begin
 0,map:Dorm
 1,map:Hall
 2,map:Lab
-3,map:Path
+3,map:Yard
 4,map:Nexus
-5,map:Afganistan
+5,map:Canadian Class
+6,map:Dorm 2
+7,map:Town
+8,map:Cafe
+9,map:Arcade
+10,map:UNI
+11,map:Class One
+12,map:Cut Scene 1
+13,map:Cut Scene 1 Part 2
+14,map:Damascus
+1,atk:Coffee
+2,atk:Punch
+1,shop:Coffee
+0,enemy:Game Dweller
 end

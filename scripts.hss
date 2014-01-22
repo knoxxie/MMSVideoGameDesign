@@ -24,26 +24,68 @@ plotscript, Change to Male, begin
 end
 
 plotscript, CutScene1, begin
-	suspend player
 	
 	show text box (19)
 	wait for text box
 	show text box (20)
 	wait for text box
-	walk hero (me, 2, up)
-	wait for hero(me)
+	walk hero(me, 2, up)
+	wait for hero (me)
 	set hero direction (me, left)
-	wait for hero(me)
+	wait for hero (me)
 	show text box (21)
 	wait for text box
 	show text box (22)
 	wait for text box
 	show text box (23)
 	wait for text box
-	
-	resume player
+	show text box (32)
+	show text box (33)
+	wait for text box
+	show text box (34)
+	wait for text box
+	show text box (35)
+	wait for text box
+	show text box (36)
+	wait for text box
+	show text box (37)
+	wait for text box
+	show text box (38)
+	wait for text box
+	show text box (39)
+	wait for text box
+	show text box (40)
+	wait for text box
+	show text box (41)
+	wait for text box
+	show text box (42)
+	wait for text box
+	show text box (43)
+	wait for text box
+	show text box (44)
+	wait for text box
+	show text box (45)
+	wait for text box
+	show text box (46)
+	wait for text box
+	show text box (47)
+	wait for text box
+	show text box (48)
+	wait for text box
+	wait (1)
+	walk hero(me, 3, down)
+	wait for hero(me)
+	wait (1)
+	walk hero (me, 3, left)
+	wait for hero (me)
+	wait (1)
 end
 	
 	plotscript, CanadaClass, begin
 		show text box (24)
 	end
+	
+	plotscript, Walktest, begin
+		walk hero (me, 2, down)
+	end
+	
