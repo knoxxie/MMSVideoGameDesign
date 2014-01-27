@@ -40,6 +40,7 @@ plotscript, CutScene1, begin
 	show text box (23)
 	wait for text box
 	show text box (32)
+	wait for text box
 	show text box (33)
 	wait for text box
 	show text box (34)
@@ -72,20 +73,33 @@ plotscript, CutScene1, begin
 	wait for text box
 	show text box (48)
 	wait for text box
-	wait (1)
-	walk hero(me, 3, down)
-	wait for hero(me)
-	wait (1)
-	walk hero (me, 3, left)
-	wait for hero (me)
-	wait (1)
+	show text box (54)
+	wait for text box
+	show text box (55)
+	wait for text box
 end
 	
 	plotscript, CanadaClass, begin
 		show text box (24)
 	end
 	
-	plotscript, Walktest, begin
-		walk hero (me, 2, down)
+	plotscript, Cutscene2, begin
+		show text box (91)
+		wait for text box
+		use door (0)
+		show text box (92)
+		wait for text box
+		show text box (93)
+		wait for text box
+		show text box (94)
+		wait for text box
+		show text box (95)
+		wait for text box
+		show text box (96)
+		wait for text box
 	end
 	
+	plotscript, Cutscene3, begin
+		show text box (139)
+		use door (0)
+	end
