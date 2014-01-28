@@ -101,5 +101,14 @@ end
 	
 	plotscript, Cutscene3, begin
 		show text box (139)
+		wait for text box
 		use door (0)
 	end
+	
+	plotscript, end game, begin
+		show backdrop (1)
+		show text box (138)
+		wait for text box
+		game over
+	end
+	
