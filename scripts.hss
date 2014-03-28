@@ -112,3 +112,10 @@ end
 		game over
 	end
 	
+	plotscript, cutscene4, begin
+		show text box (188)
+		wait for text box
+		use door (0)
+		show text box (187)
+	end
+	
