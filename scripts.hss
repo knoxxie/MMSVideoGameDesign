@@ -118,4 +118,20 @@ end
 		use door (0)
 		show text box (187)
 	end
-	
+	plotscript, endofwar, begin
+		show text box (218)
+		wait for text box
+		show text box (219)
+		wait for text box
+		show text box (220)
+		wait for text box
+		show text box (221)
+		wait for text box
+		show text box (222)
+		wait for text box
+		show text box (223)
+		wait for text box
+		show text box (224)
+		wait for text box
+		use door (2)
+	end
