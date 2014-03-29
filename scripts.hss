@@ -132,6 +132,5 @@ end
 		show text box (223)
 		wait for text box
 		show text box (224)
-		wait for text box
 		use door (2)
 	end
