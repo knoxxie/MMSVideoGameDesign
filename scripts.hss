@@ -39,6 +39,8 @@ plotscript, CutScene1, begin
 	wait for text box
 	show text box (23)
 	wait for text box
+	show text box (233)
+	wait for text box
 	show text box (32)
 	wait for text box
 	show text box (33)
@@ -87,6 +89,8 @@ end
 		show text box (91)
 		wait for text box
 		use door (0)
+		show text box (235)
+		wait for text box
 		show text box (92)
 		wait for text box
 		show text box (93)
@@ -116,6 +120,8 @@ end
 		show text box (188)
 		wait for text box
 		use door (0)
+		show text box (234)
+		wait for text box
 		show text box (187)
 	end
 	plotscript, endofwar, begin
@@ -132,5 +138,13 @@ end
 		show text box (223)
 		wait for text box
 		show text box (224)
+		wait for text box
 		use door (2)
+	end
+	
+	plotscript, cutscene5, begin
+		show text box (237)
+		wait for text box
+		use door (0)
+		show text box (236)
 	end
