@@ -148,3 +148,9 @@ end
 		use door (0)
 		show text box (236)
 	end
+	
+	plotscript, playaudio, begin
+		play sound (0,false,false)
+		wait for sound (0)
+		play sound (1,false,false)
+	end

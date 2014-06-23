@@ -3,7 +3,34 @@
 define constant, begin
 2,tag:Chosen?
 3,tag:Lab Key
+4,tag:Ready for Lesson
 5,tag:Have Doughnut
+6,tag:Have Coffee
+7,tag:Given Coffee
+10,tag:Have 20
+11,tag:HAve Knives
+12,tag:Delivered knoves
+13,tag:Have swords
+14,tag:Delivered Swords
+15,tag:Nur adDin
+16,tag:Joe
+17,tag:Duke
+18,tag:Napoleon
+19,tag:Return
+20,tag:Frontline
+22,tag:Waterloo
+23,tag:Damascus
+25,tag:Robespirre
+26,tag:Battering Ram Guy
+27,tag:Bastille
+29,tag:McLean
+30,tag:Medical
+31,tag:Grant Papers
+32,tag:Lee Papers
+33,tag:Grant News
+35,tag:Civil War
+36,tag:French Revolution
+37,tag:Yes
 0,song:DEATH
 1,song:National_Anthems__Canada
 2,song:Alive
@@ -18,13 +45,26 @@ define constant, begin
 11,song:Wander
 12,song:B
 13,song:Arab_Dance_Nutcracker
+14,song:The_1812_Overture
+15,song:Victory3
+16,song:National_Anthems__France
+17,song:battle_hymn_5v_mae
+0,sfx:Controls
+1,sfx:choose your character
 0,hero:Wisp
 1,hero:Female
 2,hero:IGNORE
 3,hero:Male
+4,hero:Napoleon
+5,hero:Grant
+0,item:Stick
 1,item:Coffee
 2,item:Donut
 3,item:Lab Key
+4,item:Order
+5,item:Swords
+6,item:Knives
+7,item:Bread
 0,stat:HP
 1,stat:MP
 2,stat:Atk
@@ -74,7 +114,21 @@ define constant, begin
 12,map:Cut Scene 1
 13,map:Cut Scene 1 Part 2
 14,map:Damascus
-1,atk:Coffee
+15,map:Waterloo
+16,map:Camp
+17,map:Cut Scene 2
+18,map:Lab Reprise
+19,map:Cut Scene 3
+20,map:Paris Market
+21,map:Bastille
+22,map:Bastille 2
+23,map:Cut Scene 4
+24,map:Union Camp
+25,map:McLean House
+26,map:Con Camp
+27,map:McLean House Redux
+28,map:Cut Scene 5
+1,atk:Card Trick
 2,atk:Punch
 1,shop:Coffee
 0,enemy:Game Dweller
