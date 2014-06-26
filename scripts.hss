@@ -124,12 +124,9 @@ end
 		wait for text box
 		use door (0)
 		show text box (234)
-		suspend map music
-		play sound (2,false,false)
 		wait for text box
 		show text box (187)
-		wait for sound (2)
-		resume map music
+	
 	end
 	
 	plotscript, endofwar, begin
@@ -163,8 +160,6 @@ end
 	
 	plotscript, playaudio, begin
 		play sound (0,false,false)
-		wait for sound (0)
-		play sound (1,false,false)
 	end
 	
 	plotscript, drums, begin
