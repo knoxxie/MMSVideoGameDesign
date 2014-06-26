@@ -24,6 +24,7 @@ plotscript, Change to Male, begin
 end
 
 plotscript, CutScene1, begin
+	
 	show text box (19)
 	wait for text box
 	show text box (20)
@@ -88,9 +89,7 @@ end
 		show text box (91)
 		wait for text box
 		use door (0)
-		suspend map music
 		show text box (235)
-		play sound (6,false,false)
 		wait for text box
 		show text box (92)
 		wait for text box
@@ -102,8 +101,6 @@ end
 		wait for text box
 		show text box (96)
 		wait for text box
-		wait for sound (6)
-		resume map music
 	end
 	
 	plotscript, Cutscene3, begin
@@ -126,9 +123,7 @@ end
 		show text box (234)
 		wait for text box
 		show text box (187)
-	
 	end
-	
 	plotscript, endofwar, begin
 		show text box (218)
 		wait for text box
@@ -151,28 +146,11 @@ end
 		show text box (237)
 		wait for text box
 		use door (0)
-		suspend map music
 		show text box (236)
-		play sound (3,false,false)
-		wait for sound (3)
-		resume map music
 	end
 	
 	plotscript, playaudio, begin
 		play sound (0,false,false)
-	end
-	
-	plotscript, drums, begin
-		show text box (76)
-		wait for text box
-		show text box (77)
-		wait for text box
-		suspend map music
-		play sound (4)
-		show text box (78)
-		wait for text box
-		show text box (79)
-		wait for text box
-		wait for sound (4)
-		resume map music
+		wait for sound (0)
+		play sound (1,false,false)
 	end

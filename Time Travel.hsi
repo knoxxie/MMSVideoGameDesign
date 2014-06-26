@@ -51,10 +51,6 @@ define constant, begin
 17,song:battle_hymn_5v_mae
 0,sfx:Controls
 1,sfx:choose your character
-2,sfx:Church Bells
-3,sfx:Drums
-4,sfx:Marching
-5,sfx:Piano
 0,hero:Wisp
 1,hero:Female
 2,hero:IGNORE
